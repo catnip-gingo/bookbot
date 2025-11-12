@@ -12,10 +12,32 @@ def get_num_letters(text):
                 charac_dict[l]+=1
     return(charac_dict)
 
-def sort_on(dict)
-    return dict[i]
-    dictionary = get_num_letters
-    sorted_dictionary= dictionary.sort(reverse=True, key )
+def sort_on(ls):
+    return ls["num"]
+    
+
+def insert_keys(lett):
+    empty_list=[]
+    for i in lett:
+        if i.isalpha():
+            keys_list={"char": i, "num": lett[i]}
+            empty_list.append(keys_list)
+        
+    return empty_list
+
+
+
+    
+       
+        
+        
+        
+
+
+
+
+    
+
      
     
 
